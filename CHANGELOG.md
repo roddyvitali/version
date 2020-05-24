@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.1.14 (2020-05-24)
+
+
+### Others
+
+* **release:** 1.1.13 ([30f3837](https://github.com/roddyvitali/version/commit/30f3837e174b1e5145ff5845eec47843d47ab3ba))
+
 ### 1.1.13 (2020-05-24)
 
 
