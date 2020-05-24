@@ -6,6 +6,9 @@ name: Node.js CI
 on:
   push:
     branches: [master]
+    paths-ignore:
+      - "package.json"
+      - "CHANGELOG.md"
   pull_request:
     branches: [master]
 
@@ -19,9 +22,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.LD_ACCESS_TOKEN }}
-      - run: git config --global user.name 'Roddy Vitali'
+      - run: git config --global user.name 'BOT CI'
       - run: git config --global user.email 'roddicks@gmail.com'
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
@@ -36,7 +37,4 @@ jobs:
         run: npm run release
       - name: Publish Changelog Action
         if: github.event_name == 'push'
-        run: |
-          git config --global user.name 'Roddy Vitali'
-          git config --global user.email 'roddicks@gmail.com'
-          git push --follow-tags origin master && npm publish
+        run: git push --follow-tags origin master
