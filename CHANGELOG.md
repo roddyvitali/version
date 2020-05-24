@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.2.0 (2020-05-24)
+
+
+### Features
+
+* **index:** fourth Feature ([a463a74](https://github.com/roddyvitali/version/commit/a463a74b159c7015e46a792e78579ecd9cf86794))
+
 ### 1.1.17 (2020-05-24)
 
 ### 1.1.16 (2020-05-24)
