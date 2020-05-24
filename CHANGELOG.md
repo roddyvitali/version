@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.1.6 (2020-05-24)
+
+
+### Others
+
+* **release:** 1.1.5 ([098cd09](https://github.com/roddyvitali/version/commit/098cd09b224456e8cfcb3bf29dc3be8941bb2d02))
+
 ### 1.1.5 (2020-05-24)
 
 
