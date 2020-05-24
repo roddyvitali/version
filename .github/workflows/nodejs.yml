@@ -32,3 +32,6 @@ jobs:
       - name: Conventional Changelog Action
         if: github.event_name == 'push'
         run: npm run release
+      - name: Publish Changelog Action
+        if: github.event_name == 'push'
+        run: git push --follow-tags origin master && npm publish
