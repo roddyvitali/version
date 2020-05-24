@@ -34,4 +34,7 @@ jobs:
         run: npm run release
       - name: Publish Changelog Action
         if: github.event_name == 'push'
-        run: git push https://roddyvitali:${{secrets.GITHUB_TOKEN}}@github.com/version.git --follow-tags origin master && npm publish
+        run: |
+          git config --global user.name 'Roddy Vitali'
+          git config --global user.email 'roddicks@gmail.com'
+          git push --follow-tags origin master && npm publish
