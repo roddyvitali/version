@@ -15,6 +15,7 @@
   "devDependencies": {
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
+    "replace": "^1.2.0",
     "standard-version": "^8.0.0"
   },
   "config": {
@@ -24,8 +25,14 @@
     "standard-version": {
       "script": {
         "prebumb": "echo 9.9.9",
-        "postchangelog": "replace 'All' 'All in'"
+        "postchangelog": "replace 'rc' 'All in'"
       }
+    }
+  },
+  "standard-version": {
+    "script": {
+      "prebumb": "echo 9.9.9",
+      "postchangelog": "replace 'rc' 'HOLA'"
     }
   }
 }
