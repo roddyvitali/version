@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "commit": "git-cz",
+    "prerelease:dev": "standard-version -- --prerelease alpha",
+    "prerelease:staging": "standard-version -- --prerelease rc",
     "release": "standard-version"
   },
   "author": "",
@@ -18,6 +20,11 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "standard-version": {
+    "script": {
+      "postchangelog": "replace 'All' 'All in'"
     }
   }
 }
