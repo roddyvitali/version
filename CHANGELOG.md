@@ -1,5 +1,12 @@
 # Changelog Default project 
  > Description
+### [1.2.7](https://github.com/roddyvitali/version/compare/v1.2.6...v1.2.7) (2020-06-06)
+
+
+### Build System
+
+* **package:** yarn run ([ad4f042](https://github.com/roddyvitali/version/commit/ad4f042294b75050a326aef72a8d640eb3707d07))
+
 ### [1.2.6](https://github.com/roddyvitali/version/compare/v1.2.5...v1.2.6) (2020-06-06)
 
 
