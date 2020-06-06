@@ -1,6 +1,11 @@
-# Changelog Default project
+# Changelog Default project 
+ > Description
+### [1.2.6](https://github.com/roddyvitali/version/compare/v1.2.5...v1.2.6) (2020-06-06)
 
-> Description
+
+### Docs
+
+* **readme:** add doc gitflow ([04ec80e](https://github.com/roddyvitali/version/commit/04ec80e112ef1bc9df5487d00debce51d2930008))
 
 ### [1.2.5](https://github.com/roddyvitali/version/compare/v1.2.4...v1.2.5) (2020-06-06)
 
