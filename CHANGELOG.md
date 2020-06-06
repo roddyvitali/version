@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/roddyvitali/version/compare/v1.2.0...v1.2.1) (2020-06-06)
+
+
+### Build System
+
+* **package:** add scripts pre release and lifecycle ([04349d0](https://github.com/roddyvitali/version/commit/04349d0accf7fa5e2b3f86d5f7950871bf485338))
+
 ## [1.2.0](https://github.com/roddyvitali/version/compare/v1.1.0...v1.2.0) (2020-05-27)
 
 
