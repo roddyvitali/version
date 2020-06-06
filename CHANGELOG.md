@@ -1,4 +1,6 @@
 # Changelog Default project
+### [1.2.4-rc.0](https://github.com/roddyvitali/version/compare/v1.2.4-alpha.0...v1.2.4-rc.0) (2020-06-06)
+
 ### [1.2.4-alpha.0](https://github.com/roddyvitali/version/compare/v1.2.3...v1.2.4-alpha.0) (2020-06-06)
 
 
