@@ -1,6 +1,10 @@
-# Changelog
+Changelog Default project
+### [1.2.2](https://github.com/roddyvitali/version/compare/v1.2.1...v1.2.2) (2020-06-06)
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### Build System
+
+* **package:** overwrite header changelog ([356806c](https://github.com/roddyvitali/version/commit/356806c354a0b1e05a7e502b5ec7b1b88a844434))
 
 ### [1.2.1](https://github.com/roddyvitali/version/compare/v1.2.0...v1.2.1) (2020-06-06)
 
