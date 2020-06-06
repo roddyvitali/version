@@ -1,4 +1,11 @@
-# Changelog Default project > Description project
+# Changelog Default project
+### [1.2.4-alpha.0](https://github.com/roddyvitali/version/compare/v1.2.3...v1.2.4-alpha.0) (2020-06-06)
+
+
+### Build System
+
+* **package:** config script ([2cbd0f6](https://github.com/roddyvitali/version/commit/2cbd0f6cf776c2f30af86d2fdac9c47e4e633506))
+
 ### [1.2.3](https://github.com/roddyvitali/version/compare/v1.2.2...v1.2.3) (2020-06-06)
 
 
