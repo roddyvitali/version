@@ -24,6 +24,7 @@
   },
   "standard-version": {
     "script": {
+      "prebumb": "echo 9.9.9",
       "postchangelog": "replace 'All' 'All in'"
     }
   }
