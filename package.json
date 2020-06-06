@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "commit": "git-cz",
-    "prerelease:dev": "npm run release -- --prerelease alpha  --skip.bump --skip.tag --skip.commit",
-    "prerelease:staging": "npm run release -- --prerelease rc --skip.bump --skip.tag --skip.commit",
+    "prerelease:dev": "yarn run release -- --prerelease alpha  --skip.bump --skip.tag --skip.commit",
+    "prerelease:staging": "yarn run release -- --prerelease rc --skip.bump --skip.tag --skip.commit",
     "release": "standard-version"
   },
   "author": "",
