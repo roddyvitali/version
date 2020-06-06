@@ -1,13 +1,13 @@
 {
   "name": "versions",
   "version": "1.2.3",
-  "description": "",
+  "description": "ha",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "commit": "git-cz",
-    "prerelease:dev": "standard-version -- --prerelease alpha",
-    "prerelease:staging": "standard-version -- --prerelease rc",
+    "prerelease:dev": "npm run release -- --prerelease alpha",
+    "prerelease:staging": "npm run release -- --prerelease rc",
     "release": "standard-version"
   },
   "author": "",
@@ -20,12 +20,12 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "standard-version": {
-    "script": {
-      "prebumb": "echo 9.9.9",
-      "postchangelog": "replace 'All' 'All in'"
+    },
+    "standard-version": {
+      "script": {
+        "prebumb": "echo 9.9.9",
+        "postchangelog": "replace 'All' 'All in'"
+      }
     }
   }
 }
