@@ -1,4 +1,13 @@
-Changelog Default project
+# Changelog Default project > Description project
+### [1.2.3](https://github.com/roddyvitali/version/compare/v1.2.2...v1.2.3) (2020-06-06)
+
+
+### Build System
+
+* **versionrc:** fix description header ([fdcb8fa](https://github.com/roddyvitali/version/commit/fdcb8fa013b2344df7bc722c3e1d090ae7cbe476))
+* **versionrc:** fix description quotes ([df41ca7](https://github.com/roddyvitali/version/commit/df41ca797b47aa6afdf711e861a0b609a0fce8fd))
+* **versionrc:** overwrite description changelog ([074f004](https://github.com/roddyvitali/version/commit/074f00481adb324a21cd4acf91c05d9342c3845f))
+
 ### [1.2.2](https://github.com/roddyvitali/version/compare/v1.2.1...v1.2.2) (2020-06-06)
 
 
