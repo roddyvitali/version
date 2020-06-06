@@ -1,5 +1,12 @@
 # Changelog Default project 
  > Description
+### [1.2.4](https://github.com/roddyvitali/version/compare/v1.2.4-alpha.1...v1.2.4) (2020-06-06)
+
+
+### Others
+
+* **release:** 1.2.4-rc.0 ([687d0b1](https://github.com/roddyvitali/version/commit/687d0b132a8ac45fba3a5dde0d43858c5fbb3917))
+
 ### [1.2.4-rc.0](https://github.com/roddyvitali/version/compare/v1.2.4-alpha.1...v1.2.4-rc.0) (2020-06-06)
 
 ### [1.2.4-alpha.1](https://github.com/roddyvitali/version/compare/v1.2.4-rc.0...v1.2.4-alpha.1) (2020-06-06)
