@@ -1,13 +1,13 @@
 {
   "name": "versions",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "ha",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "commit": "git-cz",
-    "prerelease:dev": "npm run release -- --prerelease alpha",
-    "prerelease:staging": "npm run release -- --prerelease rc",
+    "prerelease:dev": "npm run release -- --prerelease alpha  --skip.bump --skip.tag --skip.commit",
+    "prerelease:staging": "npm run release -- --prerelease rc --skip.bump --skip.tag --skip.commit",
     "release": "standard-version"
   },
   "author": "",
@@ -24,15 +24,18 @@
     },
     "standard-version": {
       "script": {
-        "prebumb": "echo 9.9.9",
-        "postchangelog": "replace 'rc' 'All in'"
+        "prebump": "echo 9.9.9",
+        "prechangelog": "echo sadsad",
+        "postchangelog": "echo sadsad"
       }
     }
   },
   "standard-version": {
     "script": {
-      "prebumb": "echo 9.9.9",
-      "postchangelog": "replace 'rc' 'HOLA'"
+      "prerelease": "echo 9.9.9",
+      "prebump": "echo 9.9.9",
+      "prechangelog": "echo sadsad",
+      "postchangelog": "echo sadsad"
     }
   }
 }

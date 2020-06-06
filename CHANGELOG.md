@@ -1,5 +1,23 @@
 # Changelog Default project 
  > Description
+### [1.2.5](https://github.com/roddyvitali/version/compare/v1.2.4...v1.2.5) (2020-06-06)
+
+### [1.2.5-alpha.1](https://github.com/roddyvitali/version/compare/v1.2.4...v1.2.5-alpha.1) (2020-06-06)
+
+### [1.2.5-alpha.1](https://github.com/roddyvitali/version/compare/v1.2.4...v1.2.5-alpha.1) (2020-06-06)
+
+### [1.2.5-alpha.1](https://github.com/roddyvitali/version/compare/v1.2.4...v1.2.5-alpha.1) (2020-06-06)
+
+### [1.2.5-alpha.1](https://github.com/roddyvitali/version/compare/v1.2.4...v1.2.5-alpha.1) (2020-06-06)
+
+### [1.2.5-alpha.1](https://github.com/roddyvitali/version/compare/v1.2.4...v1.2.5-alpha.1) (2020-06-06)
+
+### [1.2.5-alpha.1](https://github.com/roddyvitali/version/compare/v1.2.4...v1.2.5-alpha.1) (2020-06-06)
+
+### [1.2.5-alpha.1](https://github.com/roddyvitali/version/compare/v1.2.4...v1.2.5-alpha.1) (2020-06-06)
+
+### [1.2.5-alpha.1](https://github.com/roddyvitali/version/compare/v1.2.4...v1.2.5-alpha.1) (2020-06-06)
+
 ### [1.2.4](https://github.com/roddyvitali/version/compare/v1.2.4-alpha.1...v1.2.4) (2020-06-06)
 
 
