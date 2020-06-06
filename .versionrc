@@ -1,5 +1,5 @@
 {
-  "header": "# Changelog Default project \n lol",
+  "header": "# Changelog Default project \n > Description",
   "types": [
     {"type": "chore", "section":"Others", "hidden": false},
     {"type": "revert", "section":"Reverts", "hidden": false},
