@@ -1,5 +1,18 @@
 # Changelog Default project 
- lol
+ > Description
+### [1.2.4-alpha.1](https://github.com/roddyvitali/version/compare/v1.2.4-rc.0...v1.2.4-alpha.1) (2020-06-06)
+
+
+### Others
+
+* **release:** 1.2.4-alpha.0 ([a480e30](https://github.com/roddyvitali/version/commit/a480e3043d8a2c0f279180b967fc7f39b248f59e))
+
+
+### Build System
+
+* **package:** add replace devs ([d00a03a](https://github.com/roddyvitali/version/commit/d00a03a32b7a6d557228845c132b72a24901d399))
+* **versionrc:** description md ([fb5d1bd](https://github.com/roddyvitali/version/commit/fb5d1bd087c305c01b1c6e5701c1444dcf562c5a))
+
 ### [1.2.4-alpha.0](https://github.com/roddyvitali/version/compare/v1.2.4-rc.0...v1.2.4-alpha.0) (2020-06-06)
 
 
