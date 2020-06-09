@@ -1,6 +1,11 @@
-# Changelog Default project
+# Changelog Default project 
+ > Description
+### 1.2.8 (2020-06-09)
 
-> Description
+
+### Bug Fixes
+
+* **versionrc:** format json ([2c699e1](https://github.com/roddyvitali/version/commit/2c699e1e7ce2f633797f4825786a7933b8d2ef36))
 
 ### [1.2.7](https://github.com/roddyvitali/version/compare/v1.2.6...v1.2.7) (2020-06-06)
 
