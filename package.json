@@ -1,11 +1,13 @@
 {
   "name": "versions",
-  "version": "1.2.0",
-  "description": "",
+  "version": "1.2.7",
+  "description": "ha",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "commit": "git-cz",
+    "prerelease:dev": "yarn run release -- --prerelease alpha  --skip.bump --skip.tag --skip.commit",
+    "prerelease:staging": "yarn run release -- --prerelease rc --skip.bump --skip.tag --skip.commit",
     "release": "standard-version"
   },
   "author": "",
@@ -13,11 +15,27 @@
   "devDependencies": {
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
+    "replace": "^1.2.0",
     "standard-version": "^8.0.0"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    },
+    "standard-version": {
+      "script": {
+        "prebump": "echo 9.9.9",
+        "prechangelog": "echo sadsad",
+        "postchangelog": "echo sadsad"
+      }
+    }
+  },
+  "standard-version": {
+    "script": {
+      "prerelease": "echo 9.9.9",
+      "prebump": "echo 9.9.9",
+      "prechangelog": "echo sadsad",
+      "postchangelog": "echo sadsad"
     }
   }
 }

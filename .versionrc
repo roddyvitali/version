@@ -1,4 +1,5 @@
 {
+  "header": "# Changelog Default project \n > Description",
   "types": [
     {"type": "chore", "section":"Others", "hidden": false},
     {"type": "revert", "section":"Reverts", "hidden": false},
@@ -12,5 +13,12 @@
     {"type": "test", "section":"Tests", "hidden": false},
     {"type": "build", "section":"Build System", "hidden": false},
     {"type": "ci", "section":"CI", "hidden":false}
+  ],
+  {
+  "bumpFiles": [
+    {
+      "filename": "package.json",
+      "type": "json"
+    },
   ]
 }
