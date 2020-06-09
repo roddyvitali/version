@@ -14,7 +14,7 @@ You can only generate branch under this pattern **featured|fix|enhancement**
 
 ### IMPORTANT! For commit
 
-You first do `git add .` files and then run `npm run commit` which will ask what kind of commits we are committing (feat, chore, fix, etc.) in the CLI, like the following:
+You first do `git add .` files and then run `yarn run commit` which will ask what kind of commits we are committing (feat, chore, fix, etc.) in the CLI, like the following:
 
 ![first_step_cli](https://i.ibb.co/9vc2wRx/1-U5-BG9-C9-Nda-Kkg-GOr-M6-ZUPA.png)
 
